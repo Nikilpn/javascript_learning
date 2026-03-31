@@ -1,0 +1,82 @@
+--------javascript------------
+programming language(scripting language)
+
+features of javascript
+---------------------
+=>it is used to provide behaviours to a web applications
+=>it is uded in both frontend as well as backend
+    ->initially js was introduced as fronend language
+    ->v8 engine is used to run js in browser
+    ->Node js environment have v8 engine to run the js outside the browser
+    ->fronend -behaviours
+    ->backend-logical applications
+->it is categorised as dynamically typed language
+    ->Dynamically typed language-datatype changes according to the assigned values
+->single thread language-line by line execution
+->it supports both procedural and object oriented programming paradignm(style of programming)
+
+
+--------------------------------procedural programming language-----------------------------
+file name -filename.js(extention must be in .js)
+to run js file-node filname.js
+
+Display
+------
+console.log(content)
+ 
+Datatypes
+---------
+==>There are 2 types of Datatypes
+    1.primitive Datatypes
+    -->Base Datatypes
+    -->immutable -cannot change the original value -but can reassingn the value
+        1.string
+            ->sequence of characters
+            eg-'text' ,"text"
+        2.number
+            ->integer or floating number
+            ->eg 44,24.5
+        3.BigInt
+            ->larger number outside the boundary of number category
+            eg:2^53
+            
+        4.Null
+            ->intensional absence of value
+            eg:let x=NUll
+        5.undefined
+            ->not assigned a value
+            eg:let x
+            
+        6.Boolean
+            ->logical values -true or false
+        7.symbol
+            ->used to uniquely identify a content
+            ->used in creating libraries
+            eg:let variable =symbol("content")
+    2.Non primitve Datatypes
+        -drived Datatypes
+        ->mutable-can change the original value -can reassingn new value 
+        8.object-data is stored as key:value
+            eg:array,object,function etc...
+            ->combination of primitive datatype
+variables
+---------
+-->variables are used to store data
+-->rule to create variables
+    ->variable name can have alphabets,numbers,underscore etc.....
+    ->variable name should not start with digit/number,but subsequent characters can be diglit.
+    ->if variable name contains more than one word- the word should not have space
+        ->camelCase -variable name
+        ->snake_case-variable_name
+    syntax
+    -----
+    variableName=value
+    keyword variableName=value
+
+keyword
+-------
+=>set of reserved words
+=>it gives special meaning to the variables
+    1.var
+    2.const
+    3.let
