@@ -77,6 +77,33 @@ keyword
 -------
 =>set of reserved words
 =>it gives special meaning to the variables
-    1.var
-    2.const
-    3.let
+    1.var-reassigning possible,redeclaration is possible,hosting is possible,global scope
+    2.const-reassigning is not possible,redeclaration is not possible,hosting is not possible,global scope
+    3.let-reassigning possible,redeclaration is not possible,hosting is not possible,block scope
+
+Hosting
+---------
+==>using a variable before declaring
+
+Template literals
+----------------
+=>its a way of displaying contents
+
+    syntax:
+    console.log(`content ${variable_Name} ')
+
+
+concatenation
+-------------
+=>add up of data
+    ->number+number=number
+    ->string+string=string
+    ->string+number=string
+
+operators
+----------
+1.Assignment operators(=)
+2.Arithematic operators
+    +,-,/,*,%(remainder),**(exponential)
+3.Relational operators
+    >,<=,>=,==,===
