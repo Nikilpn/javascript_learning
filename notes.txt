@@ -107,3 +107,54 @@ operators
     +,-,/,*,%(remainder),**(exponential)
 3.Relational operators
     >,<=,>=,==,===
+    =>return boolean values
+    => == - compare only the value 
+    => === -compare value and  datatype
+
+4.logical operators
+    =>between one or more Relational operators
+    =>return boolean value
+    1.AND(&&)
+        T && T =T
+        T && F =F
+        F && F =F
+        F && T =F
+        
+    2.OR(||)
+        T || T =T
+        T || F =T
+        F || F =F
+        F || T =T
+    3.NOT(!)
+        !T=F
+        !F=T
+5.increment(++) / Decrement(--)
+    x=x+1 -> x++
+    x=x-1 -> x--
+
+6.shorhand operators
+    x=x+1   ->x+=1
+
+7.Ternary operators
+    condition ? true statement:false statement
+8.Truthy operators
+    condition && true statement
+
+
+
+conditional statements // decision making statements
+----------------------------------------------------
+=>Execute based on the condition
+    1.if else statements
+        syntax-:
+            if(condition){
+                statements
+            }else if(condition){
+                statements
+            }
+            
+            else{
+                statements
+            
+            }
+        =>at a time only one case will Execute

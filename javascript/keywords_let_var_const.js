@@ -5,7 +5,7 @@
 // console.log(x);
 
 // var y=23
-// console.log(y)
+// console.log(y);
 
 // var y ="welcome"
 // console.log(y);
