@@ -158,3 +158,21 @@ conditional statements // decision making statements
             
             }
         =>at a time only one case will Execute
+
+Looping statements
+-----------------
+    =>used to execute a set of code repeatedly at a particular part of the programming file
+    =>to exit a loop the condition must be false
+    1.while
+
+        syntax:
+        variable initialization
+        while(condition){
+            statements
+            exit condition /increment /decrement statements
+        }
+    2.for
+        syntax:
+            for(variable initialization; condition;exit condition){
+                statements
+            }
