@@ -176,3 +176,110 @@ Looping statements
             for(variable initialization; condition;exit condition){
                 statements
             }
+-------------------------------
+functions
+-------------------------------
+=>functions are used to do task repeatedly at different location of a programming file.
+=>functions have two parts 
+    1.function definition
+    2.function call
+
+        syntax:
+        ----------
+        1.function definition ---------->where the task is defined
+            function functionName(parameter1,para2,....paraN){
+                statements
+            }
+        2.function call ---------------->inorder to execute the task
+            functionName(arguments1,args2,....argN)
+
+    =>function call is mandatory inorder to execute a task
+    =>data coming from outside a function must be passed as arguments or parameters
+    =>original value->arguments
+    =>variable used to store a value is parameter
+
+    =>variable inside a function is having functional scope and cannot access directly outside the function
+    =>inorder to access variables outside the function , the variable must be return
+    =>no statements after the return statement will not be executed
+
+Arrow function
+--------------
+syntax:
+    const functionName = ()=>statement //only  for 1 statement
+
+    const functionName = ()=>{ // 
+      for 1 or more  statements
+    }
+    functionName()
+
+        Advantages
+        ----------
+        =>syntax is less as compared to regular function
+        =>if the arrow function is having single statement automatically returns happen
+        =>better performance as compared to regular function
+        
+    functional hosting
+    ------------------
+    =>calling a function before it is declared .
+    =>functional hosting is possible for regular function
+    =>arrow function doesnot suppor hosting
+
+        Types of function
+        -----------------
+        1.predefined function
+        ---------------------
+        =>There are built in functions for javascript
+        =>No need to define the function
+        =>eg.console.log(),math.floor(),eval(),string(),number(),typeof() etc...
+        2.callback function
+        --------------------
+        =>Functions that are passed as an argument to another function and executed later by the parent function
+
+        3.Nested function
+        -----------------
+        =>function defining inside another function
+        =>closure property:variable inside the parent function can be accessed inside the child function but child variable cannot access in parent function
+
+        4.sychronous function
+        ----------------------
+        =>functions which doesnot have any time delay to execute
+        5.Asynchronous function
+        ------------------------
+            =>functions with time delay for execution
+            eg:setTimeout(),api
+
+    Datastructure
+    -------------
+     => A specialised format for organising,processing,retrieving and storing data.
+     =>eg:linkedlist,array,tree,stack,queue,graph etc
+
+     Array
+     -----
+        =>unlike variables array can hold more than one data
+        =>Definition:Array is a single variable that can store more than one data of different Datatype that are seperated by commas and enclosed with in square bracket.
+            syntax:
+                arrayName=[data1,data2,.....dataN]
+
+        =>Each item in the array is given a index value.
+        =>Index value start with 0 and end with length-1
+        =>number of items in an array -length
+        {
+            key:value =index:data
+        }
+
+    ways to acecess an array
+    ------------------------
+    1.normal for loop
+    2.for in-directly return index value of the given array
+    3.for of-return directly the item
+
+    Array operations
+    ----------------
+    1.push()--To add new item to the end of an array
+    2.unshift()- To add new items to the start of an array
+    3.pop()-to remove the last item from the array
+    4.shift()-to remove the first item from the array.
+    5.sort()-to arrange the array in ascending or descending order
+    
+
+    
