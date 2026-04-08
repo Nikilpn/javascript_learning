@@ -163,7 +163,7 @@ Looping statements
 -----------------
     =>used to execute a set of code repeatedly at a particular part of the programming file
     =>to exit a loop the condition must be false
-    1.while
+    1.while:used when we dont know the number of iterations
 
         syntax:
         variable initialization
@@ -171,7 +171,7 @@ Looping statements
             statements
             exit condition /increment /decrement statements
         }
-    2.for
+    2.for:used when if we know the number of iterations
         syntax:
             for(variable initialization; condition;exit condition){
                 statements
@@ -280,6 +280,10 @@ syntax:
     3.pop()-to remove the last item from the array
     4.shift()-to remove the first item from the array.
     5.sort()-to arrange the array in ascending or descending order
-    
 
-    
+
+Linerar Search
+
+Binary Search => Time consumption by reducing the number of iteration
+              =>prerequsite -the given array should be in ascending order 
+              =>
