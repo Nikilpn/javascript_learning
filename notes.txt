@@ -280,10 +280,19 @@ syntax:
     3.pop()-to remove the last item from the array
     4.shift()-to remove the first item from the array.
     5.sort()-to arrange the array in ascending or descending order
+    6.forEach()-to access each item from an array.for loops
+        syntax:
+            array.forEach((variable)=>statement)
+    7.map()-same as for loop and forEach but give a newarray
+            -to access each item from an array -it return a newarray but same number of item in parent array 
+            syntax:
+                newarray=parentarray.map((variable)=>statement)
 
 
 Linerar Search
 
 Binary Search => Time consumption by reducing the number of iteration
               =>prerequsite -the given array should be in ascending order 
-              =>
+
+Nested Array
+------------
