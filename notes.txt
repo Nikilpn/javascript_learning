@@ -328,3 +328,37 @@ Binary Search => Time consumption by reducing the number of iteration
               =>prerequsite -the given array should be in ascending order 
 
 Nested Array-an array is inside an array eg:[1,2,3,[3,4]]
+
+
+string
+----------
+=> sequence of characters
+    string methods
+    --------------
+    1.startWith()-it check whether a string starts with a specific character
+        =>case sensitive
+        =>boolean value
+    2.endsWith()-it check whether a string ends with a specific character
+        =>case sensitive
+        =>boolean value
+    3.toUpperCase()-to convert a string in to capital letters
+    4.toLowerCase ()-to conver a string in to small letters
+    5.substring()-
+        syntax:
+            =>string.substring(startindex,endIndex)
+            =>ending index will be excluded
+    6.slice()
+
+        =>to get small portion of a string
+        syntax:
+            string.slice(start,end)
+            =>ending index will be excluded
+            =>accept negative value as well
+    7.trim()-remove the space in the start and ends in a given string
+    8.replace()-it replace the first matching search item
+    9.replaceAll()-it removes all the matching search items
+    10.Array.from()-get all characters of a string as array
+    11.split(seperator)=>divide the string based on the seperator and return new array
+    =>array is mutable and string is immutable
+    
+
