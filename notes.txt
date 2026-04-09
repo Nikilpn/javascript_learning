@@ -287,12 +287,44 @@ syntax:
             -to access each item from an array -it return a newarray but same number of item in parent array 
             syntax:
                 newarray=parentarray.map((variable)=>statement)
+    8.reduce-it iterates through  the array and return a single value from the array
+            eg:lowest,highest,sum,average...
+            syntax:
+                value=array.reduce((previousvalue,currentvalue)=>statement)
 
+    9.filter()
+        =>it returns a new array having elements satisfying a specific condition
 
-Linerar Search
+            syntax:
+                newArray=parentarray.filter((variable_name)=>condition)
+    10.some()
+        it returns the boolean values based on the condition
+        syntax:
+            value=parentArray.some((variable_name)=>condition)
+    11.find()
+        it returns the first element satisfying the condition
+        syntax:
+            value=parentArray.find((variable_name)=>condition)
+    12.flat()
+        =>used to change the dimension of an array 
+        =>depth refers to how deep a nested array need to be flattened
+        =>depth =infinity make the array to change its dimension directly to one dimension
+
+    13.includes()
+        =>to check the given item is present or not
+            syntax:
+                array.includes("item")
+    14.splice()
+        =>to add or remove items at different position in an array
+            syntax:
+            array.splice(startindex,deletecount,itemtoadded)
+    15.indexOf()
+        =>to get an index of an element
+    16.lastIndexof()-to get an index of last element
+
+Linerar Search-normal Search method
 
 Binary Search => Time consumption by reducing the number of iteration
               =>prerequsite -the given array should be in ascending order 
 
-Nested Array
-------------
+Nested Array-an array is inside an array eg:[1,2,3,[3,4]]
