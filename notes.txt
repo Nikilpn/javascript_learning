@@ -360,5 +360,37 @@ string
     10.Array.from()-get all characters of a string as array
     11.split(seperator)=>divide the string based on the seperator and return new array
     =>array is mutable and string is immutable
-    
 
+object:
+--------
+    =>unlike array object can store more than one data of different datatype with more clarity
+    =>Definition : object is a single variable that can store more than one data of different datatypes as key : value pair.
+        that are seperated by commas and enclosed with curly bracket
+
+        syntax:
+        objectName ={
+            key1 : value1,
+            key2 : value2
+
+            -------------
+            keyn : valuen
+
+        }
+
+    To access a data from object
+    ----------------------------
+    =>objectName["key"]-can used in the case of exact key or a variable key
+    =>objectName.key -only if there is exact key.
+
+    To add Data
+    -----------
+    objectName[key]=value
+    object.assign()
+
+    To update data
+    --------------
+    objectName[key]=value
+
+    To delete item
+    --------------
+    delete objectName.key
