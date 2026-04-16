@@ -394,3 +394,47 @@ object:
     To delete item
     --------------
     delete objectName.key
+
+
+object oriented programming(oops)
+-----------------------------
+=>its a modern paradignm which consider real time entities in to class and object
+
+basics
+------------
+1.class : its a blueprint which contains common features from which different objects are created
+2.object : its a real time entity created from the class
+3.references : actual memmory location where properties and methods are stored
+
+    properties:its a variable inside a class
+    method : function inside a class
+    instance variable:used to access the properties somewhere inside the class.
+     
+     syntax:
+        class className{
+            //properties 
+            //constructor
+            //method
+        }
+        //not mandatory to place all the above components inside the class
+        
+    constructor: used to initialize the property
+
+    syntax for object
+    -----------------
+    const objectName = new className()
+
+    syntax for constructor
+    -----------------------
+    constructor(){
+
+    }
+    syntax to define a method 
+    --------------------------
+    methodName(){
+
+    }
+
+
+
+      
