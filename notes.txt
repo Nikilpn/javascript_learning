@@ -489,3 +489,17 @@ morphism=forms
 
     =>methods with same name and same number of arguments-execute the last written method
     =>javascript supports method overriding
+
+Exception handling
+-------------------
+Exception-runtime errors
+try-catch block
+
+syntax:
+    try{
+        statement
+
+    }
+    catch{
+        statement------------->execute only when error in try block
+    }
