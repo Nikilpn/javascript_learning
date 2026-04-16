@@ -435,6 +435,57 @@ basics
 
     }
 
+pillars of oops
+--------------
+1.Inheritance 
+2.Polymorphism 
+3.Encapsulation
+4.Abstraction
 
 
-      
+1.Inheritance
+--------------
+=>its used to access methods and properties from one class to another
+
+=>parent class/superclass/baseclass
+    =>the class from which data are taken 
+
+=>child class/derived class/subclass
+    =>the child class which access the data
+
+=>keyword used to inherit the data is extends
+
+
+Types of classical Inheritance
+------------------------------
+1.Single Inheritance 
+2.Multi-level Inheritance
+3.Hierarchial Inheritance
+4.Multiple Inheritance
+5.Hybrid Inheritance
+
+
+=> javascript directly supports single ,multiple and Hierarchial and multiple and Hybrid partially supports <=
+
+Polymorphism
+---------------
+poly=>many
+morphism=forms
+
+    1.method overloading- not support in js (directly)
+    2.method overriding
+
+    1.method overloading
+    ---------------------
+    =>methods with same name but different arguments and execute based on the argument
+
+    =>javascript is not supporting method overloading directly
+
+    =>javascript supports method overloading with the help of rest operator(...args)
+
+
+    2.method overriding
+    -------------------
+
+    =>methods with same name and same number of arguments-execute the last written method
+    =>javascript supports method overriding

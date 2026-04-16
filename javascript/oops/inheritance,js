@@ -1,0 +1,19 @@
+//single inheritance.js
+
+class A{
+    methodA(){
+        console.log('hello method a');
+        
+    }
+    
+}
+class B extends A{
+    methodB(){
+        console.log('hello method b');
+        
+    }
+}
+
+const obj1 =new B()
+obj1.methodA()
+obj1.methodB()
