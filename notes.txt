@@ -593,3 +593,81 @@ syntax:
     navigation ---
     ----------
     window.location="filename.html"
+
+
+------------------------------------------------------------------
+
+API- APPLICATION PROGRAMMING INTERFACE 
+---------------------------------------
+=>API used to communicate between different applications available in the internet
+
+    Types of API
+    -----------
+    1.public API----publically available
+    2.private API-----only a single user(company)
+    3.partner API-----datashare between 2 or more users
+    4.composite API----interconnected network of different API 's
+
+    HTTPS-HYPERTEXT TRANSFER PROTOCOL
+    ------
+    protocol-----set of rules
+    ------------------------
+        =>set of internet rules that need to be followed while transfering data between resources in the internet
+        
+    HTTP request
+    ------------
+    1.get----------to retrieve data from other resources
+    2.post----------to add data
+    3.put/patch-----to update data
+    4.delete--------to remove data
+
+    Request two parts
+    -----------------
+    1.Request header--------secret keys,content types
+    2.Request body----------data
+
+    Response series
+    ---------------
+    100 -199=> information
+    200-299=>success Response
+    300 -399=>redirection
+    400-499=>client side error
+    500-599=>server side error
+
+    JSON format
+    -----------
+        =>javascript object notation
+        =>common format to share data between the resources
+        =>format
+            {
+                "key":value,
+                "key":value,
+                "key":value
+            }
+    URL- uniform resources locator
+
+    Restful API architecture.
+
+    Tools to test API
+    ----------------
+    1.postman---real tool
+    2.Thunder client----vs code extension
+
+    Techniques to create api
+    ------------------------
+    1.AJAX
+    2.FETCH
+    3.ASYNC-AWAIT
+
+    1.AJAX-Asynchronous javascript xml
+    ------------------------------------
+        =>works based on XMLHTTPREQUEST() class.
+            =>open()-connect  between the resources
+            =>send()-request is send to the other resources
+            =>readyState()----property in the class
+            =>onreadystatechange()---check the change in value of readyState
+            =>status--property in the class which the response status from the application which we are communicating
+            =>responsetext --holds the data from the application
+    2.FETCH
+    ---------
+        
