@@ -584,3 +584,12 @@ syntax:
         3.update data --setItem("key","value")
         4.deleteItem---removeItem("key)
         
+
+
+    JSON.stringify--to convert in to a string
+    JSON.parse ---to convert back to object
+
+
+    navigation ---
+    ----------
+    window.location="filename.html"
