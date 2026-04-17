@@ -503,3 +503,64 @@ syntax:
     catch{
         statement------------->execute only when error in try block
     }
+
+----------------------------------------------------------------------------------------------------------------
+---------------------------------javascript in frontend-------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
+    =>run by browser
+    =>Browser: its a application that provide an interface to interact with all the information or resources in the internet
+    =>Browser understanding language :HTML ,CSS  & javascript
+    =>javascript provides behaviours to web pages.
+    =>javascript access the Dom structure to provide behaviour
+    
+    
+    DOM-Document object model
+    ---------------------------
+    =>its a tree structure of html Document
+    =>created by browser
+
+    ways to apply javascript in html Document
+    -------------------------------------------
+    1.Internal 
+    2.External
+
+    1.Internal
+    ---------
+    <!-- -----internal  -->
+    <script>
+
+    </script>
+ 
+ <!-- external js -->
+  <script src="./demo.js"></script>
+
+
+    =>the extension of file name must be .js format
+
+    ways to acecess the elements using javascript
+    ---------------------------------------------
+    1.document.getElementsByTagname()
+        =>it returns an HTML having all the specified tag in the html document
+    2.document.getElementsByClassName()
+        =>it returns an HTML collection of having the same className
+    3.document.getElementById()
+        =>it returns the tag having the id 
+    4.document.querySelector()
+        =>it can accept tag,class and id 
+        =>className=.className
+        =>id=#id
+        =>it returns the first satifying tag
+    5.document.querySelectorAll()
+        =>it can accept tag,class and id 
+        =>className=.className
+        =>id=#id
+        =>it returns  all the  satifying tags
+
+    ways to access content from a html tag
+    ---------------------------------------
+    1.innerHTML
+
+    Events
+    --------
+    =>events are actions perform by the user which leads to change in DOM
+     eg.click,change,submit,load etc.......

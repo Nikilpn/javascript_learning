@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="class1">demo</h1>
+    <h1>demo2</h1>
+    <h2>demo3</h2>
+    <h1 class="class1">demo4</h1>
+    <div class="class1">
+
+      <p>
+        Effective note-taking involves active reading, focusing on key points
+        rather than transcribing everything, and using techniques like
+        outlining, mapping, or the Cornell method to structure information. To
+        improve retention, connect new information to existing kno wledge and
+        use consistent, concise summaries, such as summarizing in your own
+        words.
+      </p>
+
+      <p id="id1">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+         Consequuntur quibusdam ducimus quas velit ipsam fugiat molestiae atque eius
+          tempore! Ea, ut sint! Veniam molestiae architecto eum doloremque beatae! 
+          Saepe, deleniti!</p>
+
+      <p id="id2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+         Consequuntur quibusdam ducimus quas velit ipsam fugiat molestiae atque eius
+          tempore! Ea, ut sint! Veniam molestiae architecto eum doloremque beatae! 
+          Saepe, deleniti!</p>
+
+      <p id="id2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+         Consequuntur quibusdam ducimus quas velit ipsam fugiat molestiae atque eius
+          tempore! Ea, ut sint! Veniam molestiae architecto eum doloremque beatae! 
+          Saepe, deleniti!</p>
+    </div>
+    <button onclick="change()">change</button>
+  </body>
+  <!-- -----internal js -->
+  <script>
+    // function change() {
+    //   const content = document.getElementsByTagName("h1");
+    //   console.log(content);
+    //   console.log(content[0]);
+    //   content[0].innerHTML = "document object model";
+    // }
+
+    // function change() {
+    //   const content = document.getElementsByClassName("class1");
+    //   console.log(content);
+    //   console.log(content[1]);
+    //   content[1].style.color="red"
+    //   content[1].style.backgroundColor="yellow"
+    // }
+
+    // function change(){
+    //     const content =document.getElementById("id1")
+    //     console.log(content);
+    //     content.style.color='red'
+
+    //     id1.style.backgroundColor='yellow'
+        
+
+    // }
+
+    // function change(){
+    //     const content=document.querySelectorAll("#id2")
+    //     console.log(content)
+//   }
+        function change(){
+        const content=document.querySelector(".class1")
+        console.log(content)
+    }
+  </script>
+
+  <!-- external js -->
+  <script src="./demo.js"></script>
+</html>
