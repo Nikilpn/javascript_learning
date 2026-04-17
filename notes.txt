@@ -564,3 +564,23 @@ syntax:
     --------
     =>events are actions perform by the user which leads to change in DOM
      eg.click,change,submit,load etc.......
+
+     Database
+     -------
+     =>used to store data 
+     =>huge amount of data can be stored in database
+     =>permanent storage
+
+     Browser storage
+     ---------------
+     =>small amount of data can be stored
+     1.local storage---permanent storage
+     2.session storage---temporary storage
+
+        operations
+        -------------
+        1.Add a data -setItem("key","value")
+        2.get data --getItem("key")
+        3.update data --setItem("key","value")
+        4.deleteItem---removeItem("key)
+        

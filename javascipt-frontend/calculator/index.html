@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <script src="./index.js"></script>
+</head>
+
+<body>
+    <div class="d-flex justify-content-center align-items-center"
+        style="height: 100vh; background-color: blueviolet;">
+
+        <div class="row rounded-4 shadow p-3"
+            style="width: 400px; background-image: linear-gradient(to left, rgb(237, 194, 194), rgb(160, 160, 235));">
+
+            <!-- Display -->
+            <div class="col-12 mb-3">
+                <input id="result" type="text" class="form-control shadow text-end" placeholder="0"
+                    style="height: 50px; background-color: rgb(193, 218, 235);" readonly>
+            </div>
+
+            <!-- Row 1: 7, 8, 9, ÷ -->
+            <div class="col-12 d-flex justify-content-evenly mb-2">
+                <div class="btn btn-lg btn-outline-primary shadow" style="width: 60px;" onclick="display(7)">7</div>
+                <div class="btn btn-lg btn-outline-primary shadow" style="width: 60px;" onclick="display(8)">8</div>
+                <div class="btn btn-lg btn-outline-primary shadow" style="width: 60px;" onclick="display(9)">9</div>
+                <div class="btn btn-lg btn-outline-secondary shadow" style="width: 70px;" onclick="display('/')">÷</div>
+            </div>
+
+            <!-- Row 2: 4, 5, 6, x -->
+            <div class="col-12 d-flex justify-content-evenly mb-2">
+                <div class="btn btn-lg btn-outline-primary shadow" style="width: 60px;" onclick="display(4)">4</div>
+                <div class="btn btn-lg btn-outline-primary shadow" style="width: 60px;" onclick="display(5)">5</div>
+                <div class="btn btn-lg btn-outline-primary shadow" style="width: 60px;" onclick="display(6)">6</div>
+                <div class="btn btn-lg btn-outline-secondary shadow" style="width: 70px;" onclick="display('*')">x</div>
+            </div>
+
+            <!-- Row 3: 1, 2, 3, - -->
+            <div class="col-12 d-flex justify-content-evenly mb-2">
+                <div class="btn btn-lg btn-outline-primary shadow" style="width: 60px;" onclick="display(1)">1</div>
+                <div class="btn btn-lg btn-outline-primary shadow" style="width: 60px;" onclick="display(2)">2</div>
+                <div class="btn btn-lg btn-outline-primary shadow" style="width: 60px;" onclick="display(3)">3</div>
+                <div class="btn btn-lg btn-outline-secondary shadow" style="width: 70px;" onclick="display('-')">-</div>
+            </div>
+
+            <!-- Row 4: AC, 0, ., + -->
+            <div class="col-12 d-flex justify-content-evenly mb-2">
+                <div class="btn btn-lg btn-warning shadow" style="width: 60px;" onclick="clearAll()">AC</div>
+                <div class="btn btn-lg btn-outline-primary shadow" style="width: 60px;" onclick="display(0)">0</div>
+                <div class="btn btn-lg btn-outline-primary shadow" style="width: 60px;" onclick="display('.')">.</div>
+                <div class="btn btn-lg btn-outline-secondary shadow" style="width: 70px;" onclick="display('+')">+</div>
+            </div>
+
+            <!-- Row 5: Clear, =  -->
+            <div class="col-12 d-flex justify-content-evenly mb-2">
+                <div class="btn btn-lg btn-outline-danger shadow" style="width: 130px;" onclick="back()">Clear</div>
+                <div onclick="equalTo()" class="btn btn-lg btn-outline-secondary shadow" style="width: 60px;">=</div>
+                <div style="width: 70px;"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
