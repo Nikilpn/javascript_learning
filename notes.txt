@@ -670,4 +670,21 @@ API- APPLICATION PROGRAMMING INTERFACE
             =>responsetext --holds the data from the application
     2.FETCH
     ---------
+    => promise class
+    =>promise class have the ability to resolve Asynchronous function
+    =>promise have three phases
+        1.resolve phase
+            => if the request is properly solved
+            =>then()-the response can be accessed using then method
+        2.pending phase
+            =>neither resolved nor rejected
+        3.reject phase
+            =>if the request is not properly solved
+            =>catch()-response will be accessed using the catch method
         
+    3.ASYNC / AWAIT
+    --------------------
+    =>it helps Asynchronous function to behave like a sychronous function-reduce call back hell
+    =>single then()
+    =>can store response to a variable
+    =>trycatch- error handling
