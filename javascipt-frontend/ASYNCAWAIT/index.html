@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Know About the Country</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background: #fff;
+        color: #333;
+        min-height: 100vh;
+      }
+
+      /* ─── Header ─── */
+      header {
+        text-align: center;
+        padding: 2rem 1rem 1rem;
+      }
+
+      header h1 {
+        font-size: 2rem;
+        color: #2e7d4f;
+        font-weight: bold;
+      }
+
+      /* ─── Search ─── */
+      .search-wrap {
+        display: flex;
+        justify-content: center;
+        padding: 1.5rem 1rem 2rem;
+      }
+
+      .search-box {
+        display: flex;
+        gap: 0;
+        width: 100%;
+        max-width: 560px;
+      }
+
+      .search-box input {
+        flex: 1;
+        padding: 0.6rem 1rem;
+        border: 1px solid #ccc;
+        outline: none;
+        font-size: 1rem;
+        color: #333;
+      }
+
+      .search-box button {
+        padding: 0.6rem 1.4rem;
+        background: #2e7d4f;
+        border: none;
+        color: #fff;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+
+      .search-box button:hover {
+        background: #256040;
+      }
+
+      /* ─── Main Layout ─── */
+      main {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 2rem 4rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+      }
+
+      /* ─── Flag ─── */
+      .flag-wrap {
+        width: 100%;
+        aspect-ratio: 3/2;
+        margin-bottom: 1.2rem;
+        border: 1px solid #ddd;
+      }
+
+      .flag-wrap img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+
+      /* ─── Left Info ─── */
+      .info-item {
+        padding: 0.7rem 0;
+        border-bottom: 1px solid #ddd;
+        font-size: 0.95rem;
+        color: #333;
+      }
+
+      .info-item span {
+        font-weight: normal;
+      }
+
+      /* ─── Right Info ─── */
+      .right-panel .info-item {
+        padding: 0.7rem 0;
+        border-bottom: 1px solid #ddd;
+        font-size: 0.95rem;
+      }
+
+      .right-panel .info-item a {
+        color: #1a6dc0;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Know About the Country</h1>
+    </header>
+
+    <div class="search-wrap">
+      <div class="search-box">
+        <input
+          id="country"
+          type="text"
+          id="searchInput"
+          placeholder=""
+          autocomplete="off"
+        />
+        <button onclick="searchcountry()">Search</button>
+      </div>
+    </div>
+
+    <main>
+      <div id="result">
+      
+        
+      </div>
+    </main>
+  </body>
+  <script src="./index.js"></script>
+</html>
